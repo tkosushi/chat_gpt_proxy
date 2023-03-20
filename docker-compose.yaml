@@ -1,0 +1,10 @@
+version: '3'
+services:
+  proxy:
+    container_name: proxy
+    image: chat_gpt_proxy/python:latest
+    ports: 
+      - 10080:80
+    volumes:
+      - ./proxy/workdir:/app
+    tty: true

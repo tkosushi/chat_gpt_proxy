@@ -1,0 +1,2 @@
+クライアントアプリに直接APIキーを埋め込みたくない時用Proxy.   
+docker-composeの練習用に作っただけなので、普通にやる時はLambdaとAPI Gatewayで作るのがよろし.
